@@ -3,11 +3,13 @@
 ![DEPENDENCIES status](https://david-dm.org/shershen08/vue-masonry/status.svg)
 [![](https://data.jsdelivr.com/v1/package/npm/vue-masonry/badge)](https://www.jsdelivr.com/package/npm/vue-masonry)
 
-**Current version: 0.11.8**
+**Current version: 0.12.0**
 
 Vue.js directive for masonry blocks layouting. Original [masonry library](http://masonry.desandro.com/).
 
-Plugin [DEMO](https://shershen08.github.io/vue-plugins-demo-static/index.html#/masonry) available 🎉, [JSFiddle DEMO](https://jsfiddle.net/jericopulvera/wq07brjs)
+Plugin [DEMO](https://shershen08.github.io/vue-plugins-demo-static/index.html#/masonry) available 🎉, [JSFiddle DEMO](https://jsfiddle.net/shershen08/n54039qg/)
+
+The plugin can be easily integrated with different CSS Frameworks. Check this [Tailwind CSS DEMO](https://jsbin.com/zafegay/edit?html,output).
 
 You can also clone the basic demo repository [vue-masonry + vue-cli webpack](https://github.com/shershen08/vue-masonry-plugin-demo).
 
@@ -80,7 +82,7 @@ If you need to manually trigger masonry layout redraw (for example in case if yo
 
 ### NUXT ssr implementation
 
-The best way to impliment this is to use the [no-ssr plugin](https://github.com/egoist/vue-no-ssr).
+The best way to implement this is to use the [no-ssr plugin](https://github.com/egoist/vue-no-ssr).
 
 1. Create a file in your plugins folder called vue-masonry.js with the following contents:
 
@@ -129,7 +131,7 @@ JS:
   }
 ```
 
-An example implimentation of vue-masonry with nuxt ssr can be found here - https://github.com/richlloydmiles/example-vue-masonry-ssr
+An example implementation of vue-masonry with nuxt ssr can be found here - https://github.com/richlloydmiles/example-vue-masonry-ssr
 
 ### Contributing
 
